@@ -1,0 +1,151 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CmsUno\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-14 17:58+0100\n"
+"PO-Revision-Date: 2023-12-14 18:02+0100\n"
+"Last-Translator: Jacques Malgrange <contacter@boiteasite.fr>\n"
+"Language-Team: Jacques Malgrange <contacter@boiteasite.fr>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Report-\tmsgstr-Bugs-To: \n"
+"Report-\t\tmsgstr-Bugs-To: \n"
+"X-Poedit-KeywordsList: _;T_\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../invoice.php:17
+msgid ""
+"Allows you to create an invoice with one or more predefined formats. PDF "
+"output."
+msgstr ""
+"Permet de créer une facture avec un ou plusieurs formats prédéfinis. Sortie "
+"PDF."
+
+#: ../../../invoice.php:18
+msgid "Setting"
+msgstr "Paramètres"
+
+#: ../../../invoice.php:21
+msgid "Invoice Header Image"
+msgstr "Image d'en-tête de la facture"
+
+#: ../../../invoice.php:24
+msgid "File manager"
+msgstr "Gestionnaire de fichiers"
+
+#: ../../../invoice.php:26
+msgid "Recommended size between 100px and 200px."
+msgstr "Taille recommandée entre 100px et 200px."
+
+#: ../../../invoice.php:29
+msgid "Business address"
+msgstr "Adresse professionnelle"
+
+#: ../../../invoice.php:33
+msgid "Company information, right of the logo."
+msgstr "Informations sur l'entreprise, à droite du logo."
+
+#: ../../../invoice.php:36
+msgid "Invoicing details"
+msgstr "Détails de la facturation"
+
+#: ../../../invoice.php:40
+msgid "Invoicing supplement, displayed in italics below the table."
+msgstr "Supplément de facturation, affiché en italique sous le tableau."
+
+#: ../../../invoice.php:43
+msgid "Invoice Footer"
+msgstr "Pied de page de la facture"
+
+#: ../../../invoice.php:50
+msgid "Save settings"
+msgstr "Sauvegarder les paramètres"
+
+#: ../../../invoice.php:50
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: ../../../invoice.php:53 ../../../invoice.php:147
+msgid "Test invoice"
+msgstr "Facture de test"
+
+#: ../../../invoice.php:56
+msgid "First name"
+msgstr "Prénom"
+
+#: ../../../invoice.php:63
+msgid "Last name"
+msgstr "Nom de famille"
+
+#: ../../../invoice.php:70
+msgid "Email"
+msgstr "Email"
+
+#: ../../../invoice.php:77
+msgid "Address"
+msgstr "Adresse"
+
+#: ../../../invoice.php:84
+msgid "Product"
+msgstr "Produit"
+
+#: ../../../invoice.php:91
+msgid "Product REF"
+msgstr "Ref. du produit"
+
+#: ../../../invoice.php:98
+msgid "Date"
+msgstr "Date"
+
+#: ../../../invoice.php:105
+msgid "Price"
+msgstr "Prix"
+
+#: ../../../invoice.php:112
+msgid "Shipping price"
+msgstr "Prix d'expédition"
+
+#: ../../../invoice.php:119
+msgid "Tax % (0 to 1)"
+msgstr "Taxe % (0 à 1)"
+
+#: ../../../invoice.php:123
+msgid "Example for 20% : 0.2"
+msgstr "Exemple pour 20 % : 0,2"
+
+#: ../../../invoice.php:126
+msgid "Currency"
+msgstr "Monnaie"
+
+#: ../../../invoice.php:130
+msgid "Default is EURO"
+msgstr "La valeur par défaut est EURO"
+
+#: ../../../invoice.php:133
+msgid "Payment method"
+msgstr "Mode de paiement"
+
+#: ../../../invoice.php:140
+msgid "File name"
+msgstr "Nom du fichier"
+
+#: ../../../invoice.php:147
+msgid "Create PDF"
+msgstr "Créer un PDF"
+
+#: ../../../invoice.php:162
+msgid "Backup performed"
+msgstr "Sauvegarde effectuée"
+
+#: ../../../invoice.php:163
+msgid "Impossible backup"
+msgstr "Sauvegarde impossible"
+
+#: ../../../invoice.php:173 ../../../invoiceCreatePdf.php:189
+msgid "Error"
+msgstr "Erreur"
