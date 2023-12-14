@@ -29,4 +29,4 @@ Allows you to create an invoice with one or more predefined formats. PDF output.
 
 ### Versions ###
 
-* 1.0 - xx/12/2023 : First stable version
+* 1.0 - 14/12/2023 : First stable version
