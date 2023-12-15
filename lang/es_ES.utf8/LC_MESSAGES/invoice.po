@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CmsUno\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-14 18:03+0100\n"
-"PO-Revision-Date: 2023-12-14 18:11+0100\n"
+"POT-Creation-Date: 2023-12-15 15:59+0100\n"
+"PO-Revision-Date: 2023-12-15 15:59+0100\n"
 "Last-Translator: Jacques Malgrange <contacter@boiteasite.fr>\n"
 "Language-Team: Jacques Malgrange <contacter@boiteasite.fr>\n"
 "Language: es_ES\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Report-\tmsgstr-Bugs-To: \n"
 "Report-\t\tmsgstr-Bugs-To: \n"
-"X-Poedit-KeywordsList: _;T_\n"
+"X-Poedit-KeywordsList: _;T_;Tiso_\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: iso-8859-1\n"
 "X-Generator: Poedit 2.3\n"
@@ -23,8 +23,8 @@ msgid ""
 "Allows you to create an invoice with one or more predefined formats. PDF "
 "output."
 msgstr ""
-"Permite crear una factura con uno o varios formatos predefinidos. Salida "
-"en PDF."
+"Permite crear una factura con uno o varios formatos predefinidos. Salida en "
+"PDF."
 
 #: ../../../invoice.php:18
 msgid "Setting"
@@ -56,8 +56,7 @@ msgstr "Datos de facturación"
 
 #: ../../../invoice.php:40
 msgid "Invoicing supplement, displayed in italics below the table."
-msgstr ""
-"Suplemento de facturación, que aparece en cursiva debajo del cuadro."
+msgstr "Suplemento de facturación, que aparece en cursiva debajo del cuadro."
 
 #: ../../../invoice.php:43
 msgid "Invoice Footer"
@@ -87,7 +86,8 @@ msgstr "Apellido"
 msgid "Email"
 msgstr "Email"
 
-#: ../../../invoice.php:77
+#: ../../../invoice.php:77 ../../../invoiceCreatePdf.php:100
+#: ../../../invoiceCreatePdf.php:165
 msgid "Address"
 msgstr "Dirección"
 
@@ -99,11 +99,11 @@ msgstr "Producto"
 msgid "Product REF"
 msgstr "Ref. del producto"
 
-#: ../../../invoice.php:98
+#: ../../../invoice.php:98 ../../../invoiceCreatePdf.php:90
 msgid "Date"
 msgstr "Date"
 
-#: ../../../invoice.php:105
+#: ../../../invoice.php:105 ../../../invoiceCreatePdf.php:117
 msgid "Price"
 msgstr "Precio"
 
@@ -150,3 +150,48 @@ msgstr "Copia de seguridad imposible"
 #: ../../../invoice.php:173 ../../../invoiceCreatePdf.php:189
 msgid "Error"
 msgstr "Error"
+
+#: ../../../invoiceCreatePdf.php:77
+msgid "Invoice"
+msgstr "Factura"
+
+#: ../../../invoiceCreatePdf.php:82
+msgid "Order"
+msgstr "Encargar"
+
+#: ../../../invoiceCreatePdf.php:85 ../../../invoiceCreatePdf.php:117
+msgid "Ref"
+msgstr "Ref"
+
+#: ../../../invoiceCreatePdf.php:95 ../../../invoiceCreatePdf.php:117
+#: ../../../invoiceCreatePdf.php:161
+msgid "Name"
+msgstr "Nombre"
+
+#: ../../../invoiceCreatePdf.php:107 ../../../invoiceCreatePdf.php:169
+msgid "Mail"
+msgstr "Mail"
+
+#: ../../../invoiceCreatePdf.php:113
+msgid "Payment"
+msgstr "Pago"
+
+#: ../../../invoiceCreatePdf.php:117
+msgid "Tax"
+msgstr "Impuesto"
+
+#: ../../../invoiceCreatePdf.php:117 ../../../invoiceCreatePdf.php:147
+msgid "Total"
+msgstr "Total"
+
+#: ../../../invoiceCreatePdf.php:120
+msgid "Order Details"
+msgstr "Detalles del pedido"
+
+#: ../../../invoiceCreatePdf.php:143
+msgid "Shipping cost"
+msgstr "Gastos de envío"
+
+#: ../../../invoiceCreatePdf.php:159
+msgid "Shipping address"
+msgstr "Dirección de envío"

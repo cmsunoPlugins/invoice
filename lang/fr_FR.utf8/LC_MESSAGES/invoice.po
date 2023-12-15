@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CmsUno\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-14 17:58+0100\n"
-"PO-Revision-Date: 2023-12-14 18:02+0100\n"
+"POT-Creation-Date: 2023-12-15 15:55+0100\n"
+"PO-Revision-Date: 2023-12-15 15:56+0100\n"
 "Last-Translator: Jacques Malgrange <contacter@boiteasite.fr>\n"
 "Language-Team: Jacques Malgrange <contacter@boiteasite.fr>\n"
 "Language: fr_FR\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Report-\tmsgstr-Bugs-To: \n"
 "Report-\t\tmsgstr-Bugs-To: \n"
-"X-Poedit-KeywordsList: _;T_\n"
+"X-Poedit-KeywordsList: _;T_;Tiso_\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: iso-8859-1\n"
 "X-Generator: Poedit 2.3\n"
@@ -86,7 +86,8 @@ msgstr "Nom de famille"
 msgid "Email"
 msgstr "Email"
 
-#: ../../../invoice.php:77
+#: ../../../invoice.php:77 ../../../invoiceCreatePdf.php:100
+#: ../../../invoiceCreatePdf.php:165
 msgid "Address"
 msgstr "Adresse"
 
@@ -98,11 +99,11 @@ msgstr "Produit"
 msgid "Product REF"
 msgstr "Ref. du produit"
 
-#: ../../../invoice.php:98
+#: ../../../invoice.php:98 ../../../invoiceCreatePdf.php:90
 msgid "Date"
 msgstr "Date"
 
-#: ../../../invoice.php:105
+#: ../../../invoice.php:105 ../../../invoiceCreatePdf.php:117
 msgid "Price"
 msgstr "Prix"
 
@@ -149,3 +150,53 @@ msgstr "Sauvegarde impossible"
 #: ../../../invoice.php:173 ../../../invoiceCreatePdf.php:189
 msgid "Error"
 msgstr "Erreur"
+
+#: ../../../invoiceCreatePdf.php:77
+msgid "Invoice"
+msgstr "Facture"
+
+#: ../../../invoiceCreatePdf.php:82
+msgid "Order"
+msgstr "Commande"
+
+#: ../../../invoiceCreatePdf.php:85 ../../../invoiceCreatePdf.php:117
+msgid "Ref"
+msgstr "Ref"
+
+#: ../../../invoiceCreatePdf.php:95 ../../../invoiceCreatePdf.php:117
+#: ../../../invoiceCreatePdf.php:161
+msgid "Name"
+msgstr "Nom"
+
+#: ../../../invoiceCreatePdf.php:107 ../../../invoiceCreatePdf.php:169
+msgid "Mail"
+msgstr "Mail"
+
+#: ../../../invoiceCreatePdf.php:113
+msgid "Payment"
+msgstr "Paiement"
+
+#: ../../../invoiceCreatePdf.php:117
+msgid "Tax"
+msgstr "Taxe"
+
+#: ../../../invoiceCreatePdf.php:117 ../../../invoiceCreatePdf.php:147
+msgid "Total"
+msgstr "Total"
+
+#: ../../../invoiceCreatePdf.php:120
+msgid "Order Details"
+msgstr "Détails de la commande"
+
+#: ../../../invoiceCreatePdf.php:143
+msgid "Shipping cost"
+msgstr "Frais de livraison"
+
+#: ../../../invoiceCreatePdf.php:159
+msgid "Shipping address"
+msgstr "Adresse de livraison"
+
+#, fuzzy
+#~| msgid "Address"
+#~ msgid "Adress"
+#~ msgstr "Adresse"

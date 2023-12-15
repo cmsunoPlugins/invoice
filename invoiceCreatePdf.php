@@ -34,8 +34,8 @@ if(empty($invoice['file'])) $invoice['file'] = 'invoice.pdf';
 //
 // 3. Load settings
 $templ = array('logo'=>'','addr'=>'','comp'=>'','foot'=>'');
-if(file_exists('../../data/invoice.json')) {
-	$q = file_get_contents(realpath(__DIR__ . '/../../data/invoice.json'));
+if(file_exists(dirname(dirname(dirname(__FILE__))).'/data/invoice.json')) {
+	$q = file_get_contents(dirname(dirname(dirname(__FILE__))).'/data/invoice.json');
 	$templ = json_decode($q,true);
 }
 //
@@ -84,35 +84,35 @@ $pdf->Ln(10);
 $pdf->SetFont('','B',10);
 $pdf->Cell(20,6,Tiso_("Ref"),1,0,'L',true);
 $pdf->SetFont('');
-$pdf->Cell(50,6,$refinv,1,0,'L',false); // $a(id)
+$pdf->Cell(80,6,$refinv,1,0,'L',false); // $a(id)
 $pdf->Ln();
 $pdf->SetFont('','B');
 $pdf->Cell(20,6,Tiso_("Date"),1,0,'L',true);
 $pdf->SetFont('');
-$pdf->Cell(50,6,$invoice['date'],1,0,'L',false); // a(time)
+$pdf->Cell(80,6,$invoice['date'],1,0,'L',false); // a(time)
 $pdf->Ln();
 $pdf->SetFont('','B');
 $pdf->Cell(20,6,Tiso_("Name"),1,0,'L',true);
 $pdf->SetFont('');
-$pdf->Cell(50,6,ucfirst($invoice['fname']).($invoice['fname']?' ':'').ucfirst($invoice['lname']),1,0,'L',false);
+$pdf->Cell(80,6,ucfirst($invoice['fname']).($invoice['fname']?' ':'').ucfirst($invoice['lname']),1,0,'L',false);
 if($invoice['adres']) {
 	$pdf->Ln(); $pdf->SetFont('','B');
-	$pdf->Cell(20,6,Tiso_("Adress"),1,0,'L',true);
+	$pdf->Cell(20,6,Tiso_("Address"),1,0,'L',true);
 	$pdf->SetFont('');
-	$pdf->Cell(50,6,$invoice['adres'],1,0,'L',false);
+	$pdf->Cell(80,6,$invoice['adres'],1,0,'L',false);
 }
 if($invoice['email']) {
 	$pdf->Ln();
 	$pdf->SetFont('','B');
 	$pdf->Cell(20,6,Tiso_("Mail"),1,0,'L',true);
 	$pdf->SetFont('');
-	$pdf->Cell(50,6,$invoice['email'],1,0,'L',false);
+	$pdf->Cell(80,6,$invoice['email'],1,0,'L',false);
 }
 $pdf->Ln();
 $pdf->SetFont('','B');
 $pdf->Cell(20,6,Tiso_("Payment"),1,0,'L',true);
 $pdf->SetFont('');
-$pdf->Cell(50,6,ucfirst($invoice['metho']?$invoice['metho']:'OK'),1,0,'L',false);
+$pdf->Cell(80,6,ucfirst($invoice['metho']?$invoice['metho']:'OK'),1,0,'L',false);
 // Order content
 $t1 = array(Tiso_("Name"), Tiso_("Ref"), Tiso_("Price"), 'Nb', Tiso_("Tax"), Tiso_("Total"));
 $pdf->Ln(20);
